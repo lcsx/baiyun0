@@ -63,7 +63,7 @@
             "list": [
                 {
                     "title": "科室",
-                    "path": "department"
+                    "path": "department2"
                 },
                 {
                     "title": "病区",
@@ -84,7 +84,7 @@
             "list": [
                 {
                     "title": "治疗项目",
-                    "path": "treatment"
+                    "path": "treatment2"
                 },
                 {
                     "title": "收费项目",
