@@ -1,0 +1,523 @@
+{
+    "login": {
+        "userId": "user-lcs",
+        "password": "lcs"
+    },
+    "getlist3": {
+        "code": 200,
+        "navListData": [
+            {
+                "title": "用户管理",
+                "isShow": 1,
+                "list": [
+                    {
+                        "title": "用户管理",
+                        "url": "api/xxx",
+                        "isShow": 0
+                    },
+                    {
+                        "title": "角色管理",
+                        "url": "api/xxx",
+                        "isShow": 1
+                    }
+                ]
+            },
+            {
+                "title": "医院信息管理",
+                "isShow": 1,
+                "list": [
+                    {
+                        "title": "科室1",
+                        "url": "api/xxx",
+                        "isShow": 1
+                    },
+                    {
+                        "title": "科室2",
+                        "url": "api/xxx",
+                        "isShow": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "leftNav": [
+        {
+            "title": "用户管理",
+            "list": [
+                {
+                    "title": "用户管理",
+                    "path": "user"
+                },
+                {
+                    "title": "角色管理",
+                    "path": "roles"
+                },
+                {
+                    "title": "权限管理",
+                    "path": "rights"
+                }
+            ]
+        },
+        {
+            "title": "医院信息管理管理",
+            "list": [
+                {
+                    "title": "科室",
+                    "path": "department"
+                },
+                {
+                    "title": "病区",
+                    "path": "area"
+                },
+                {
+                    "title": "病房",
+                    "path": "ward"
+                },
+                {
+                    "title": "病床",
+                    "path": "bed"
+                }
+            ]
+        },
+        {
+            "title": "治疗管理",
+            "list": [
+                {
+                    "title": "治疗项目",
+                    "path": "treatment"
+                },
+                {
+                    "title": "收费项目",
+                    "path": "pay"
+                },
+                {
+                    "title": "治疗方法",
+                    "path": "method"
+                },
+                {
+                    "title": "治疗频率",
+                    "path": "frequency"
+                },
+                {
+                    "title": "治疗室",
+                    "path": "room"
+                },
+                {
+                    "title": "设备管理",
+                    "path": "equipment"
+                },
+                {
+                    "title": "部位",
+                    "path": "parts"
+                }
+            ]
+        },
+        {
+            "title": "系统配置",
+            "list": [
+                {
+                    "title": "系统配置",
+                    "path": "config"
+                }
+            ]
+        }
+    ],
+    "userList": {
+        "code": 200,
+        "userList": [
+            {
+                "roleName": "rolename1",
+                "name": "name1",
+                "sex": "sex1",
+                "role": "role1",
+                "position": "position1",
+                "username": "username1",
+                "password": "password1"
+            },
+            {
+                "roleName": "rolename2",
+                "name": "name1",
+                "sex": "sex2",
+                "role": "role2",
+                "position": "position2",
+                "username": "username2",
+                "password": "password2"
+            },
+            {
+                "roleName": "rolename3",
+                "name": "name1",
+                "sex": "sex3",
+                "role": "role3",
+                "position": "position3",
+                "username": "username3",
+                "password": "password3"
+            }
+        ]
+    },
+    "CFList": {
+        "code": 200,
+        "list": [
+            {
+                "units": "qd(一日一次)",
+                "num": 1,
+                "often": "一日一次",
+                "remark": "药到病除"
+            },
+            {
+                "units": "bid(一日一次)",
+                "num": 1,
+                "often": "一日二次",
+                "remark": "妙手回春"
+            },
+            {
+                "units": "gd(一日三次)",
+                "num": 1,
+                "often": "一日一次",
+                "remark": "华佗在世"
+            },
+            {
+                "units": "qdg(一日一次)",
+                "num": 1,
+                "often": "一日一次",
+                "remark": "药王驾到"
+            }
+        ]
+    },
+    "historyTB": {
+        "code": 200,
+        "pages": {
+            "1": [
+                {
+                    "ID": 1,
+                    "name": "张三",
+                    "classes": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 2,
+                    "name": "张三",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 22,
+                    "state": "未诊"
+                },
+                {
+                    "ID": 3,
+                    "name": "王五",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 4,
+                    "name": "赵四",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 5,
+                    "name": "李八",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                }
+            ],
+            "2": [
+                {
+                    "ID": 6,
+                    "name": "张三2222",
+                    "classes": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 7,
+                    "name": "张三333",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 22,
+                    "state": "未诊"
+                },
+                {
+                    "ID": 8,
+                    "name": "王五1111",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 9,
+                    "name": "赵四34324",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 10,
+                    "name": "李11八",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                }
+            ],
+            "3": [
+                {
+                    "ID": 31,
+                    "name": "11111fakse",
+                    "classes": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 12,
+                    "name": "2222uzi",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 22,
+                    "state": "未诊"
+                },
+                {
+                    "ID": 13,
+                    "name": "333wolf",
+                    "classes": "门诊",
+                    "sex": "女",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 14,
+                    "name": "4444mlxg",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                },
+                {
+                    "ID": 15,
+                    "name": "555let me",
+                    "classes": "门诊",
+                    "sex": "男",
+                    "age": 26,
+                    "state": "已诊"
+                }
+            ]
+        }
+    },
+    "zyTB": {
+        "code": 200,
+        "pages": {
+            "1": [
+                {
+                    "ID": 1,
+                    "name": "张三",
+                    "num": 33,
+                    "sex": "男",
+                    "age": 221,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 2,
+                    "name": "张三11",
+                    "num": 222,
+                    "sex": "男",
+                    "age": 211,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 3,
+                    "name": "张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 4,
+                    "name": "张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 5,
+                    "name": "12f张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 1111,
+                    "diagnosis": "aa",
+                    "date": "2011",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                }
+            ],
+            "2": [
+                {
+                    "ID": 6,
+                    "name": "1111sas",
+                    "num": 33,
+                    "sex": "男",
+                    "age": 221,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 7,
+                    "name": "hgf张三11",
+                    "num": 222,
+                    "sex": "男",
+                    "age": 211,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 8,
+                    "name": "nbv张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 11,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 9,
+                    "name": "iuyg张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 11231,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 10,
+                    "name": "qqwdf张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 1111,
+                    "diagnosis": "aa",
+                    "date": "2011",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                }
+            ],
+            "3": [
+                {
+                    "ID": 11,
+                    "name": "gfff张三",
+                    "num": 33,
+                    "sex": "男",
+                    "age": 24331,
+                    "area": "ss",
+                    "bednum": 111111,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 12,
+                    "name": "张三11",
+                    "num": 2244442,
+                    "sex": "男",
+                    "age": 211,
+                    "area": "ss",
+                    "bednum": 1666661,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 13,
+                    "name": "张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 2441,
+                    "area": "ss",
+                    "bednum": 1981,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 14,
+                    "name": "张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 2981,
+                    "area": "ss",
+                    "bednum": 19871,
+                    "diagnosis": "aa",
+                    "date": "201",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                },
+                {
+                    "ID": 15,
+                    "name": "1rr2f张三",
+                    "num": "住院",
+                    "sex": "男",
+                    "age": 21,
+                    "area": "ss",
+                    "bednum": 111111,
+                    "diagnosis": "aa",
+                    "date": "202211",
+                    "doctor": "孙思邈",
+                    "state": "已诊"
+                }
+            ]
+        }
+    }
+}
