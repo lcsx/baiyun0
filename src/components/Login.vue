@@ -47,7 +47,15 @@
 		},
 		methods: {
 			onSubmit() {
-				console.log(this.form);
+				console.log(this.form.way);
+				if(this.form.way == 1){
+					this.$router.push({path:'/index'})
+				}else if(this.form.way == 2){
+					this.$router.push({path:'/zlshome'})
+				}
+				else if(this.form.way == 3){
+					this.$router.push({path:'/admin'})
+				}
 			}
 		}
 	}

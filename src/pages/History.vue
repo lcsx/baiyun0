@@ -146,7 +146,18 @@
 
 		},
 		mounted() {
-
+			this.pageIsShow = false;
+				this.axios.get("/api/historyTB").then((res) => {
+					this.currentPage = 1,
+					this.loading = true;
+					setTimeout(() => {
+						this.loading = false;
+						this.pageIsShow = true;
+						this.tableData = res.data.pages[this.currentPage];
+					}, 1000)
+				}, (err) => {
+					console.log(err)
+				})
 		}
 
 	}

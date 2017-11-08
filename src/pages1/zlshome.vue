@@ -1,14 +1,13 @@
 <template>
 	<section class="home-wrap">
-
 		<el-row>
 			<el-col :span="1">&nbsp;</el-col>
 			<el-col :span="22">
 				<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#fff" text-color="#888" active-text-color="#888">
 					<div class="top-bar-title">白云医院康复信息系统</div>
-					<el-menu-item index="/">主页</el-menu-item>
-					<el-menu-item index="/history">历史查询</el-menu-item>
-					<el-menu-item index="/info">信息统计</el-menu-item>
+					<el-menu-item index="/zlshome">主页</el-menu-item>
+					<el-menu-item index="/zlshome/zlshistory">历史查询</el-menu-item>
+					<el-menu-item index="/zlshome/zlsinfo">信息统计</el-menu-item>
 					<el-submenu index="7" style="float: right;">
 						<template slot="title">我的工作台</template>
 						<el-menu-item index="7-1">注销</el-menu-item>
